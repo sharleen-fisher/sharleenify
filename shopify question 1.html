@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<title>Sharleenify - Shopicruit Solution</title>
+<style>
+
+#Navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #61A392;
+	width: 100%;
+	height: 50px;
+	border: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #FCFFD1;
+	font-size: small;
+}
+
+#ProbJump {
+	height: 100px;
+}
+
+#CatJump {
+	height: 100px;
+}
+
+#StratJump {
+	height: 175px;
+}
+
+#ByeJump {
+	height: 130px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FCFFD1;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: white;
+}
+
+#Results {
+	position: fixed;
+	top: 50px;
+	bottom: 0;
+	right: 0;
+	width: 350px;
+	background-color: #84DCC6;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #C94446;
+}
+
+#Solution1 {
+	background-color: #FFA69E;
+	width: 300px;
+	height: 135px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	font-size: small;
+	font-weight: normal;
+	color: #C94446;
+	text-align: justify;
+}
+
+#Solution2 {
+	background-color: #FFA69E;
+	width: 300px;
+	height: 135px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	font-size: small;
+	font-weight: normal;
+	color: #C94446;
+	text-align: justify;
+}
+
+#Solution3 {
+	background-color: #FFA69E;
+	width: 300px;
+	height: 135px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	font-size: small;
+	font-weight: normal;
+	color: #C94446;
+	text-align: justify;
+}
+
+#Problem {
+	background-color: #FCFFD1;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-top: 150px;
+	margin-bottom: 200px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	min-width: 400px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: small;
+	color: #61A392;
+	text-align: justify;
+}
+
+#Catalogue {
+	background-color: #FCFFD1;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-bottom: 200px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	min-width: 500px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: small;
+	color: #61A392;
+}
+
+#Strategy {
+	background-color: #FCFFD1;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-bottom: 200px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	min-width: 400px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: small;
+	color: #61A392;
+	text-align: justify;
+}
+
+#Goodbye {
+	background-color: #FCFFD1;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-bottom: 250px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	min-width: 400px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: small;
+	color: #61A392;
+	text-align: justify;
+}
+
+</style>
+
+<body>
+
+<table id="Navigation">
+	<tr>
+		<td width="6%"></td>
+		<td width="11%"><center><a href="#ProbJump">Problem</a></center></td>
+		<td width="11%"><center><a href="#CatJump">Catalogue</a></center></td>
+		<td width="11%"><center><a href="#StratJump">Strategy</a></center></td>
+		<td width="11%"><center><a href="#ByeJump">Goodbye</a></center></td>
+		<td width="50%"></td>
+	</tr>
+</table>
+
+<div id="Results">
+	&nbsp;&nbsp;&nbsp;I WANT VOLUME...
+	<center><div id="Solution1"></div></center>
+	<br><br>
+	&nbsp;&nbsp;&nbsp;I WANT VARIETY...
+	<center><div id="Solution2"></div></center>
+	<br><br>
+	&nbsp;&nbsp;&nbsp;I WANT BOTH...
+	<center><div id="Solution3"></div></center>
+</div>
+
+<div id="ProbJump"></div>
+<div id="Problem">
+	<table><tr><td width='45%'>
+	<center><img width='80%'src='https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/ba936233432401.56ac48024c745.png'></center></td>
+	<td width='55%'><font color='DD5658' size='5'><b><font size='7'>H</font>OUSTON, WE HAVE A PROBLEM...</b></font> <br>
+	So the other day, I felt an urge to add some computers and keyboards to my growing collection. I was browsing the web, when I stumbled upon this store aclled 'Shopicruit' with tons of novel products! So novel, in fact, that I decided that I wanted to buy <b>every single computer or keyboard variant that 'Shopicruit' had to offer</b>. And here's where we find our problem...
+	<br><br>
+	See, I can carry a lot - but I've never been able to carry any more than 100kg. I needed to somehow figure out how many 'Shopicruit' computers and keyboards I could buy under this restraint. To achieve this, I did a little snooping into 'Shopicruit's code to find more information on the shop's products. And, what do you know it, I found <a href='http://shopicruit.myshopify.com/products.json'><font color='#34564E'>just what I needed</font></a>! 
+	<br><br>
+	First, I needed to filter through all the irrelevant products.</td></tr></table>
+</div>
+
+<div id="CatJump"></div>
+<div id="Catalogue"></div>
+
+<div id="StratJump"></div>
+<div id="Strategy">
+<table><tr><td width='45%'>
+	<center><img width='55%' src='https://mir-cdn.behance.net/v1/rendition/project_modules/disp/41cbb433432401.56ac52cb05e8b.png'></td>
+	<td width='55%'><font color='DD5658' size='5'><b><font size='7'>T</font>WO ROADS DIVERGED... </b></font><br>
+	With a little bit of brilliance, I managed to boil down all the information about 'Shopicruit's computers and keyboards. But there was a little more work I needed to put in to make the program run as smoothly as possible. After isolating the computers and keyboards, I sorted them by ascending weight, which would make it a lot easier to decide how I wanted to approach the problem.
+	<br><br>
+	There were three strategies I could consider. First, how greedy was I? Was my goal to buy <b>the maximum amount of computers and keyboards that I could carry</b>? That would mean that I would just buy the lightest item over and over again. Or was I seeking variety? Could I stop buying after I bought <b>every single computer and keyboard variant</b>, even if I could carry more? Or should I do a combination of the two strategies, buying every single computer and keyboard first, before stacking on the lightest one until I was just under 100kg? On top of all that, I had to consider which items were taxable and which items were out of stock.
+	<br><br>
+	I decided to write two different functions that would calculate the total weight and price through the first two strategies, and implement them both for the last strategy.</td></tr></table>
+</div>
+
+<div id="ByeJump"></div>
+<div id="Goodbye">
+	<table><tr><td width='45%'>
+		<center><img width='60%' src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/a9664b33432401.56ac3a50006da.png'></center</td>
+		<td width='55%'><font color='DD5658' size='5'><b><font size='7'>P</font>ARTING IS SUCH SWEET SORROW... </b></font><br>First off, I'd like to thank you for reading to this point!
+		<br><br>
+		My name is Sharleen Fisher, and as I am writing this I am a student at Queen's University. This was made for Shopify's Developer Intern application. I know I don't have a ton of development experience, but I'm hoping that this might show you a glimpse of the hard work and dedication that I'm capable of.
+		<br><br>
+		Happy Shopicruit shopping!</td></tr></table>
+</div>
+
+
+</body>
+</html>
+
+<script>
+processData('http://shopicruit.myshopify.com/products.json');
+
+// Processes data from a given URL to solve the Shopicruit problem
+function processData(url) {
+	var originalData = new XMLHttpRequest();
+	originalData.onreadystatechange = function() {
+		if (originalData.readyState == 4 && originalData.status == 200) {
+			// Parse JSON object into Javascript object
+			parsedData = JSON.parse(originalData.responseText);
+			// Find the computer or keyboard products and store them in comKeyProducts
+			comKeyProducts = isolateComKey(parsedData.products);
+			// Creates the HTML code for Catalogue using comKeyProducts
+			makeCatalogue(comKeyProducts);
+			// Separate each variant of the computer and keyboard products into their own objects
+			comKeyProducts = separateProducts(comKeyProducts);
+			// Sorts each new product by its weight, from lightest weight to heaviest
+			comKeyProducts = sortByWeight(comKeyProducts);
+			// Creates the HTML code for Sol1, Sol2, and Sol3
+			makeSol1(comKeyProducts);
+			makeSol2(comKeyProducts);
+			makeSol3(comKeyProducts);
+		}
+	};
+	originalData.open("GET", url, true);
+	originalData.send();
+}
+
+// Returns items in a given array with the product_type Computer or Keyboard
+function isolateComKey(arr) {
+	var comKeyProducts = [];
+	for (var i=0; i<arr.length; i++) {
+		if (arr[i].product_type === "Computer" || arr[i].product_type === "Keyboard") {
+			// Add computer and keyboard products to the new array
+			comKeyProducts.push(arr[i]);
+		}
+	}
+	return comKeyProducts;
+}
+
+// Separates product variants into their object with reduced information
+function separateProducts(arr) {
+	var separatedProducts = [];
+	for (var i=0; i<arr.length; i++) {
+		for (var j=0; j<arr[i].variants.length; j++) {
+			var product = {id:arr[i].id, title:arr[i].title, product_type:arr[i].product_type, variant_id:arr[i].variants[j].id, variant_title:arr[i].variants[j].title, variant_price:arr[i].variants[j].price, variant_grams:arr[i].variants[j].grams, taxable:arr[i].variants[j].taxable, variant_available:arr[i].variants[j].available};
+			// Adds each separated variant as its own object to the new array
+			// Information about each product includes: id, title, product type, variant id, variant title, price, weight, taxable, and available
+			separatedProducts.push(product);
+		}
+	}
+	return separatedProducts;
+}
+
+// Sorts items by ascending weight
+function sortByWeight(arr) {
+	// Compares the weights of each object and sorts in ascending order
+	arr.sort(function(a,b) {
+		return parseFloat(a.variant_grams) - parseFloat(b.variant_grams);
+	});
+	return arr;
+}
+
+// Totals the weights and prices of objects in the list up until a given weight limit; Assumes array is sorted by ascending weight
+function addInOrder(arr, weightLimit) {
+	var totalWeight = 0;
+	var totalPrice = 0;
+	for (var i=0; i<arr.length; i++) {
+		// Checks if adding the weight to the total will put the total weight over the weight limit
+		// Also checks if the item is even in stock (if it's available)
+		if ((totalWeight+arr[i].variant_grams)<weightLimit && arr[i].variant_available === true) {
+			totalWeight += arr[i].variant_grams;
+			// Checks if the item is taxable
+			if (arr[i].taxable === true) {
+				// If so, charge tax
+				totalPrice += arr[i].variant_price*1.13;
+			} else {
+				// If not, add the price as is
+				totalPrice += arr[i].variant_price;
+			}
+		}
+	}
+	// Round to the cent
+	totalPrice = Math.round(totalPrice*100) / 100;
+	return [totalWeight,totalPrice];
+}
+
+// Totals the weight and prices of the lightest object until weight limit is reached, maximizing the amount of computers and keyboards; Assumes array is sorted by ascending weight
+function addLightest(arr, weightLimit) {
+	var totalWeight = 0;
+	var totalPrice = 0;
+	// Checks if next item will put the total weight over the weight limit
+	// Also checks if the item is in stock
+	while ((totalWeight+arr[0].variant_grams)<weightLimit && arr[0].variant_available === true) {
+		totalWeight += arr[0].variant_grams;
+		// Checks if item is taxable
+		if (arr[0].taxable === true) {
+			// If so, charge tax
+			totalPrice += arr[0].variant_price*1.13;
+		} else {
+			// If not, add the price as is
+			totalPrice += arr[0].variant_price;
+		}
+	}
+	// Rounds to the cent
+	totalPrice = Math.round(totalPrice*100) / 100;
+	return [totalWeight,totalPrice];
+}
+
+
+// Makes HTML code for #Catalogue
+function makeCatalogue(arr) {
+	var out = "<font color='DD5658' size='5'><b><font size='7'>S</font>EARCHING HIGH AND LOW...</b></font><br><center><table width='100%'>";
+	for (var i=0; i<arr.length; i++) {
+		out += "<tr><td width='37%'><center><img width='180px' src='" + arr[i].images[0].src + "'></center></td><td width='50%'><table width='100%'><tr><th>" + arr[i].title + "</th>"
+		for (var j=0; j<arr[i].variants.length; j++) {
+			out += "<tr width='50%'><td><table width='100%' style='border-collapse:collapse;'><tr><td width='34%' style='border:1px solid black;'><center>" + arr[i].variants[j].title + "</center></td><td width='33%' style='border:1px solid black;'><center>$" + arr[i].variants[j].price + "</center></td><td width='33%' style='border:1px solid black;'><center>" + (arr[i].variants[j].grams/1000) + "kg</center></td></tr></table></td></tr>"
+		}
+		out += "</tr></table></td>";
+	}
+	out += "<td></td></tr></table></center>";
+	document.getElementById('Catalogue').innerHTML = out;
+}
+
+function makeSol1(arr) {
+	var result1 = addLightest(arr, 100000);
+	var out = "If I interpret my goal to be to buy the <b>maximum amount of computers and keyboards that I could carry</b>, then I would buy only one product: the lightest one. So I would buy the Gold Awesome Cotton Computer, only.<br><br>I would be carrying " + (result1[0]/1000) + "kg of product, which would cost me $" + result1[1] + " after charging tax to all the taxable items.";
+	document.getElementById('Solution1').innerHTML = out;
+}
+
+function makeSol2(arr) {
+	var result2 = addInOrder(arr, 100000);
+	var out = "On the other hand, if my goal is to buy <b>every single computer and keyboard variant</b>, then I would each product one by one, in order of ascending weight. It just so happens that I can buy every single one and stay under 100kg!<br><br>I would be carrying " + (result2[0]/1000) + "kg of product, which would cost me $" + result2[1] + " after charging tax to all the taxable items."
+	document.getElementById('Solution2').innerHTML = out;
+
+}
+
+function makeSol3(arr) {
+	var result3_1 = addInOrder(arr, 100000);
+	var result3_2 = addLightest(arr, (100000-result3_1[0]));
+	var result3 = [(result3_1[0]+result3_2[0]), (result3_1[1]+result3_2[1])]
+	var out = "And if I wanted both volume and variety, then I would buy every single product once, and fill up the remaining kilograms with the lightest item. That Gold Awesome Cotton Computer must be really awesome, huh?<br><br>I would be carrying " + (result3[0]/1000) + "kg of product, which would cost me $" + result3[1] + " after charging tax to all the taxable items.";
+	document.getElementById('Solution3').innerHTML = out;
+
+}
+
+</script>
